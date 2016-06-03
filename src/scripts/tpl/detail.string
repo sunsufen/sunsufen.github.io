@@ -1,0 +1,11 @@
+<div class="m-guide" action-type="goto.detail">
+<header>
+  <ul>
+    <li class="yo-ico">&#xe658;</li>
+    <li>
+    消息盒子
+    </li>
+    <li class="yo-ico" action-type="goto.detail">&#xe6c6;</li>
+  </ul>
+</header>
+</div>

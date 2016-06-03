@@ -1,0 +1,82 @@
+<header>
+  <ul>
+    <li class="yo-ico">&#xe658;</li>
+    <li>
+      <span class="yo-ico">
+      &#xe629;
+      </span>
+      <input type='text' placeholder='搜索 商品'/>
+
+    </li>
+    <li class="yo-ico" action-type="goto.detail">&#xe6c6;</li>
+  </ul>
+</header>
+
+<section id="index-scroll" spa-widget="scroll">
+  <div>
+
+  <div class="swiper-container" id='index-swiper'>
+  <div class="swiper-wrapper">
+      <div class="swiper-slide"><a><img src='/footballSNS/images/5742a770a6c8a.jpg'></a></div>
+      <div class="swiper-slide"><a><img src='/footballSNS/images/573d5b5814c5d.jpg'></a></div>
+      <div class="swiper-slide"><a><img src='/footballSNS/images/574ced5a0f0a0.jpg'></a></div>
+  </div>
+  <div class="swiper-pagination" style='color:#b2000c;'></div>
+  </div>
+  <ul class='nav'>
+  <li><span><a><img src='/footballSNS/images/yaouiyao.jpg'></a></span><span>摇一摇</span></li>
+    <li><span><a><img src='/footballSNS/images/new.jpg'></a></span><span>新品</span></li>
+      <li><span><a><img src='/footballSNS//images/3.jpg'></a></span><span>签到积分</span></li>
+  </ul>
+  <div class='map' id="listmap">
+  <div class='title'>
+  主题惠
+  </div>
+  <div class='con'>
+  <div class='left'>
+  <a><img src='/footballSNS/images/5746bd706fc3f.jpg'></a>
+  </div>
+  <div class='right'>
+  <span><a><img src='/footballSNS/images/5746bd8bc2bcf.jpg'></a></span>
+    <span><a><img src='/footballSNS/images/5746bda6a2eac.jpg'></a></span>
+
+  </div>
+  </div>
+  </div>
+  <div class='map' id="listmap">
+  <div class='title'>
+大牌街
+  </div>
+  <div class='con'>
+  <div class='left'>
+  <a><img src='/footballSNS/images/5746bd706fc3f.jpg'></a>
+  </div>
+  <div class='right'>
+  <span><a><img src='/footballSNS/images/5746bd8bc2bcf.jpg'></a></span>
+    <span><a><img src='/footballSNS/images/5746bda6a2eac.jpg'></a></span>
+
+  </div>
+  </div>
+  </div>
+    <ul class='list' ms-repeat-value='getlivelist'>
+      <li>
+        <i><img ms-src="value[0].imgSrc" /></i>
+        <b ms-text="value[0].title"></b>
+        <b>￥<span ms-text="value[0].price"></span></b>
+      </li>
+        <li></li>
+      <li ms-class-hidden="!value[1]">
+        <i><img ms-src="value[1].imgSrc" /></i>
+        <b ms-text="value[1].title"></b>
+        <b>￥<span ms-text="value[1].price"></span></b>
+      </li>
+    </ul>
+    <div class='foo'>
+    <span>
+    <img src="/footballSNS/images/logo.jpg" />
+    <b>没空去韩国？就来韩都衣舍</b>
+    </span>
+    </div>
+  </div>
+
+</section>
