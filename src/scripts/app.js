@@ -1,4 +1,5 @@
 require('./lib/spa.min.js');
+// require('./lib/loading.js');
 require('./views/index.js');
 require('./views/guide.js');
 require('./views/detail.js');
@@ -7,6 +8,9 @@ require('./views/wei.js');
 require('./views/list.js');
 require('./views/shopcar.js');
 require('./views/my.js');
+require('./views/goodsdetail.js');
+require('./views/login.js');
+
 
 // require('/footballSNS/src/scripts/lib/swiper-3.3.1.min.js');
 

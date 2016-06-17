@@ -10,15 +10,27 @@ SPA.defineView('guide', {
 
   // 绑定事件
   bindActions: {
-    'goto.index': function () {
-      SPA.open('index');
-      var mySwiper = new Swiper ('.swiper-container', {
-          autoplay:1500,
-          autoplayDisableOnInteraction : false,
-          loop: true,
-          pagination: '.swiper-pagination',
 
-        });
+    'goto.index': function () {
+  SPA.open('index');
+  var mySwiper = new Swiper ('#index-swiper', {
+      autoplay:1500,
+      autoplayDisableOnInteraction : false,
+      loop: true,
+      pagination: '.swiper-pagination',
+
+    });
+
+    }
+  },
+  bindEvents: {
+    'beforeShow': function () {
+      setTimeout(function(){
+
+        SPA.open("index");
+
+      },1500)
+
     }
   }
 });

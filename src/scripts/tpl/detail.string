@@ -1,11 +1,18 @@
-<div class="m-guide" action-type="goto.detail">
+<div class="m-guide">
 <header>
   <ul>
-    <li class="yo-ico">&#xe658;</li>
+    <li  action-type='exit'><img src='/footballSNs/images/close.jpg'></li>
     <li>
     消息盒子
     </li>
-    <li class="yo-ico" action-type="goto.detail">&#xe6c6;</li>
+    <li  action-type="goto.detail"><img src='/footballSNs/images/shezhi.jpg'></li>
   </ul>
 </header>
+<section>
+  <ul>
+    <li><span class='yo-ico'>&#xe6c6;</span><i>消息中心</i></li>
+    <li><span class='yo-ico'>&#xe6cd;</span><i>在线客服</i>
+    <li><span class='yo-ico'>&#xe6ca;</span><i>物流中心</i></li>
+  </ul>
+</section>
 </div>

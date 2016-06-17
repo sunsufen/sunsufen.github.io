@@ -14,7 +14,7 @@
 
 <section id="index-scroll" spa-widget="scroll">
   <div>
-
+<!-- <div class="preloader"> Loading... </div> -->
   <div class="swiper-container" id='index-swiper'>
   <div class="swiper-wrapper">
       <div class="swiper-slide"><a><img src='/footballSNS/images/5742a770a6c8a.jpg'></a></div>
@@ -59,7 +59,7 @@
   </div>
   </div>
     <ul class='list' ms-repeat-value='getlivelist'>
-      <li>
+      <li action-type='goto.goodsdetail'>
         <i><img ms-src="value[0].imgSrc" /></i>
         <b ms-text="value[0].title"></b>
         <b>￥<span ms-text="value[0].price"></span></b>
@@ -78,5 +78,4 @@
     </span>
     </div>
   </div>
-
 </section>

@@ -3,11 +3,11 @@
   <footer>
     <ul>
       <li class="active" action-type="switch.view" data-tag="home">
-        <i class="yo-ico">&#xe603;</i>
+        <i class="yo-ico">&#xe63c;</i>
         <b>首页</b>
       </li>
       <li action-type="switch.view" data-tag="wei">
-        <i class="yo-ico" action-type='goto.detail'>&#xe719;</i>
+        <i class="yo-ico">&#xe719;</i>
         <b>微生活</b>
       </li>
       <li action-type="switch.view" data-tag="list">

@@ -18,6 +18,9 @@ SPA.defineView('detail', {
       //     loop: true,
       //     pagination: '.swiper-pagination',
       //   });
+    },
+    'exit':function(){
+      this.hide();
     }
   }
 });

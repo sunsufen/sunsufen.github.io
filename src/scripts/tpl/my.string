@@ -1,3 +1,17 @@
-<div class="">
-  my....
+<div id="my">
+<header>
+  <ul>
+    <li class="yo-ico">
+    </li>
+    <li style='color:white;'>
+      我的韩都
+
+    </li>
+    <li class="yo-ico" action-type="goto.detail"></li>
+  </ul>
+</header>
+<section>
+<img src='/footballSNs/images/my.jpg'>
+</section>
+
 </div>

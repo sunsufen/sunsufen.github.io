@@ -12,7 +12,7 @@ SPA.defineView('index', {
   modules: [{
     name: 'content',
     container: '.m-index-container',
-    views: ['home', 'wei', 'my','list','shopcar'],
+    views: ['home', 'wei', 'my','list','shopcar','goodsdetail'],
     defaultTag: 'home'//默认显示home页
   }],
 
@@ -25,13 +25,19 @@ SPA.defineView('index', {
   },
 
   bindActions: {
-    // 'switch.swiper': function (e) {
-    //   this.setActive($(e.el));
-    //   this.indexSwiper.slideTo($(e.el).index()+1);
-    // },
+    'switch.swiper': function (e) {
+      this.setActive($(e.el));
+      this.indexSwiper.slideTo($(e.el).index()+1);
+    },
     'goto.detail': function () {
       SPA.open('detail');
     },
+
+      'goto.goodsdetail': function () {
+          console.log(1);
+        SPA.open('goodsdetail');
+
+      },
 
     'switch.view': function (e) {
       // 视图切换方法
@@ -41,32 +47,17 @@ SPA.defineView('index', {
 
     'exit': function () {
       SPA.back('index');
-    }
-  },
+    },
+    'switch-my':function () {
+      SPA.open('dialog', {
+        name:"actionsheet",
+        width:280,
+        height:500
+      })
 
-  bindEvents: {
-    'beforeShow': function () {
-      this.indexSwiper = new Swiper('#index-swiper', {
-        loop: true,
-        autoplay:1500,
-        autoplayDisableOnInteraction : false,
-        pagination: '.swiper-pagination',
-
-        // onSlideChangeStart: function (swiper) {
-        //   $('#index-nav li').eq(swiper.activeIndex-1)
-        //     .addClass('active').siblings().removeClass('active');
-        // }
-      });
     }
   }
+
+
+
 });
-// 轮播
-// var Swiper = require('../lib/swiper-3.3.1.min.js');
-// window.onload = function () {
-// var mySwiper = new Swiper ('.swiper-container', {
-//     autoplay:1500,
-//     autoplayDisableOnInteraction : false,
-//     loop: true,
-//     pagination: '.swiper-pagination',
-//   });
-// };

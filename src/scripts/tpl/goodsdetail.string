@@ -1,0 +1,43 @@
+<div id='goods'>
+<section spa-widget="scroll">
+<div>
+   <div class='img'>
+<div class='liactive'><img src='/footballSNS/images/1459288510960223376.jpg'></div>
+<div><img src='/footballSNS/images/1459289025319459215.jpg'></div>
+<div><img src='/footballSNS/images/1459288377737053018.jpg'></div>
+<div><img src='/footballSNS/images/1459289025319459215.jpg'></div>
+
+</div>
+<div class='bott' action-type='exit'>
+  <
+</div>
+<div class='title'>
+  <p>￥<span>168.00</span><del>市场价：200.00</del></p>
+  <p>女装白色青年时尚休闲圆领套头印花修身短袖T恤EJ4191【韩都衣舍 2016夏装新品】</p>
+</div>
+<ul>
+  <li>销售524件</li>
+  <li>收藏<span class='yo-ico'>&#xe66f;</span></li>
+  <li>分享<span class='yo-ico'>&#xe601;</span></li>
+</ul>
+<div class="youhui">
+  <span class='yo-ico'>&#xe603;</span>优惠活动
+
+</div>
+<div class="baoyou">
+  <p>全场满199包邮</p>
+  <p><i class='yo-ico'>&#xe602;</i><span>点击领取优惠券</span></p>
+
+</div>
+</div>
+</section>
+
+<footer>
+<ul>
+  <li class='yo-ico'><b>&#xe6cd;</b><i>客服</i></li>
+    <li class='yo-ico'><b>&#xe6ca;</b><i>购物车</i></li>
+      <li>加入购物车</li>
+        <li>立即购买</li>
+</ul>
+</footer>
+</div>

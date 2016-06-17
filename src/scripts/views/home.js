@@ -14,10 +14,8 @@ SPA.defineView('home', {
     'beforeShow': function () {
       var vm = this.getVM();
       $.ajax({
-        url: '/api/getlivelist.php',
+        url: '/unique/mock/getlivelist.json',
         success: function (res) {
-          // console.log(res.data);
-          // vm.getlivelist=res.data;
           var data = res.data;
           var tempArr = [];
           for(var i = 0;i < Math.ceil(data.length/2); i++){
@@ -28,7 +26,20 @@ SPA.defineView('home', {
            vm.getlivelist=tempArr;
 
         }
+      });
+      SPA.open("index");
+      this.indexSwiper = new Swiper('#index-swiper', {
+        loop: true,
+        autoplay:1500,
+        autoplayDisableOnInteraction : false,
+        pagination: '.swiper-pagination',
+
+        // onSlideChangeStart: function (swiper) {
+        //   $('#index-nav li').eq(swiper.activeIndex-1)
+        //     .addClass('active').siblings().removeClass('active');
+        // }
       })
+
     }
   }
 });
