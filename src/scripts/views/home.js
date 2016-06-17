@@ -14,7 +14,7 @@ SPA.defineView('home', {
     'beforeShow': function () {
       var vm = this.getVM();
       $.ajax({
-        url: '/unique/mock/getlivelist.json',
+        url: '/footballSNs/mock/getlivelist.json',
         success: function (res) {
           var data = res.data;
           var tempArr = [];

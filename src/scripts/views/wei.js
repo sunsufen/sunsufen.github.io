@@ -14,7 +14,7 @@ SPA.defineView('wei', {
     'beforeShow': function () {
       var vm = this.getVM();
       $.ajax({
-        url: '/unique/mock/getlivelist.json',
+        url: '/footballSNs/mock/getlivelist.json',
         success: function (res) {
           // console.log(res.data2);
           // vm.getlivelist=res.data;
