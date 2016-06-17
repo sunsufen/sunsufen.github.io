@@ -14,7 +14,7 @@ SPA.defineView('wei', {
     'beforeShow': function () {
       var vm = this.getVM();
       $.ajax({
-        url: '/api/getlivelist.php',
+        url: '/unique/mock/getlivelist.json',
         success: function (res) {
           // console.log(res.data2);
           // vm.getlivelist=res.data;
